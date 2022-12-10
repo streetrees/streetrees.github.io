@@ -2,7 +2,18 @@
 
 .table{
     width: 80%;
-    align-content: center;
+    align: right;
+    width: 60%; 
+    height: 40%; 
+    box-shadow: 2px 2px 0px 0px #000000; 
+    box-sizing: border-box;
+    moz-box-sizing: border-box;
+    webkit-box-sizing: border-box;
+    border-style: outset; 
+    background-color: #BEBEBE;
+    position: relative;
+    margin: auto;
+    float:center
 }
 .footer{
     vertical-align: middle;
@@ -55,7 +66,23 @@ box-sizing: border-box;
   width:15%;
     }
 }
-@media (min-width: 481px) {
+@media (min-width: 582px) {
+    .table{
+        width: 80%;
+        align: right;
+        width: 60%; 
+        height: 40%; 
+        box-shadow: 2px 2px 0px 0px #000000; 
+        box-sizing: border-box;
+        moz-box-sizing: border-box;
+        webkit-box-sizing: border-box;
+        border-style: outset; 
+        background-color: #BEBEBE;
+        position: relative;
+        margin: auto;
+        float:right
+    
+    }
 .footer{
     vertical-align: middle;
     font-family: MS_Sans_Serif; 
