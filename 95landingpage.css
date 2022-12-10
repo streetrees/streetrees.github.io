@@ -17,21 +17,6 @@
         width:5%;
     }
 
-    .welcome{
-        margin:4px; 
-        background-color: #D3D3D3;
-        box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  border-style: inset;
-  padding-inline: 10px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  font-size: 15px;
-  box-shadow: -2px -2px 0px 0px #000000;
-  width:10%;
-    }
-    
     .clock { 
         margin:5px;
 text-align: right;
@@ -49,7 +34,7 @@ box-sizing: border-box;
   width:17%;
     }
 }
-@media (min-width: 461px) {
+@media (min-width: 481px) {
 .footer{
     vertical-align: middle;
     font-family: MS_Sans_Serif; 
