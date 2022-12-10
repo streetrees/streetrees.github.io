@@ -1,4 +1,9 @@
 @media (max-width: 481px) {
+
+.table{
+    width: 80%;
+    align-content: center;
+}
 .footer{
     vertical-align: middle;
     font-family: MS_Sans_Serif; 
