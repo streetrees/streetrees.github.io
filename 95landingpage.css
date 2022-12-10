@@ -13,6 +13,9 @@
     margin: 0%;
     float:center
 }
+.ispy{
+    display: block;
+}
 .footer{
     float:inline-start;
     font-family: MS_Sans_Serif; 
@@ -35,7 +38,8 @@
     {
         float: left;
         padding-left: 20%;
-        font-size: 10px;
+        font-size: 15px;
+        font-weight: 50;
         margin:4px; 
         background-color: #D3D3D3;
         box-sizing: border-box;
