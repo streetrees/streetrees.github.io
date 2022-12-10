@@ -1,16 +1,3 @@
-.popup{
-    "background-color:#BEBEBE ; 
-    width: 60%; 
-    height: 40%; 
-    border-collapse: collapse; 
-    box-sizing: border-box;
-    moz-box-sizing: border-box;
-    webkit-box-sizing: border-box;
-    border-style: outset; 
-    border-width: 5px;">
-}
-
-
 
 .footer{
     vertical-align: middle;
@@ -62,6 +49,6 @@ box-sizing: border-box;
 
     @font-face {
         font-family: 'MS_Sans_Serif';
-        src: url("C:/Users/storm/OneDrive/Documents/GitHub/streetrees.github.io/MS Sans Serif 8pt.ttf");
+        src: url("MS Sans Serif 8pt.ttf");
       }
 
