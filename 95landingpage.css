@@ -13,7 +13,7 @@
     float:center
 }
 .ispy{
-    display: block;
+    width: 1px;
 }
 .footer{
     float:inline-start;
@@ -59,8 +59,8 @@ box-sizing: border-box;
   -webkit-box-sizing: border-box;
   border-style: inset;
   padding-inline: 10px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
   font-size: 15px;
   font-weight: 50;
   box-shadow: -2px -2px 0px 0px #000000;
