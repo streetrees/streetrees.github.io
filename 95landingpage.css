@@ -1,7 +1,7 @@
 @media (max-width: 481px) {
 
 .table{
-    width: 80%;
+    width: 97%;
     align: right;
     width: 60%; 
     height: 40%; 
@@ -16,7 +16,7 @@
     float:center
 }
 .footer{
-    vertical-align: middle;
+    float:inline-start;
     font-family: MS_Sans_Serif; 
     position: fixed; 
     bottom: 0; 
