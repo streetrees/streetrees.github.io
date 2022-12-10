@@ -10,7 +10,8 @@
     background-color: #BEBEBE;
     position: relative;
     margin: 0%;
-    float:center
+    float:center;
+    width: max-content;
 }
 .ispy{
     width: 1px;
