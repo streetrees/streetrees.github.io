@@ -19,6 +19,7 @@
 
     .welcome{
         margin:4px; 
+        text-align: center;
         background-color: #D3D3D3;
         box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -29,7 +30,7 @@
   padding-bottom: 8px;
   font-size: 15px;
   box-shadow: -2px -2px 0px 0px #000000;
-  width:60%;
+  width:40%;
     }
     
     .clock { 
