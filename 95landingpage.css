@@ -33,6 +33,7 @@
 
     .welcome
     {
+        float: left;
         padding-left: 8%;
         font-size: 10px;
         margin:4px; 
