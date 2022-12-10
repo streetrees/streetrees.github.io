@@ -17,6 +17,11 @@
         width:5%;
     }
 
+    .welcome
+    {
+        width: 0%;
+    }
+
     .clock { 
         margin:5px;
 text-align: right;
