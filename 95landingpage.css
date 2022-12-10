@@ -1,7 +1,6 @@
 @media (max-width: 481px) {
 
 .table{
-    width: 97%;
     align: right;
     box-shadow: 2px 2px 0px 0px #000000; 
     box-sizing: border-box;
@@ -38,7 +37,7 @@
     {
         float: left;
         padding-left: 20%;
-        font-size: 15px;
+        font-size: 25px;
         font-weight: 50;
         margin:4px; 
         background-color: #D3D3D3;
