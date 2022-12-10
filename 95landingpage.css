@@ -14,12 +14,12 @@
         float: left;
         text-align: left;
         margin:2px;
-        width:5%;
+        width:7%;
     }
 
     .welcome
     {
-        font-size: 1px;
+        font-size: 0px;
     }
 
     .clock { 
@@ -36,7 +36,7 @@ box-sizing: border-box;
   font-weight: 50;
   box-shadow: -2px -2px 0px 0px #000000;
   float: right;
-  width:17%;
+  width:15%;
     }
 }
 @media (min-width: 481px) {
