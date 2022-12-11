@@ -3,6 +3,7 @@
     background-color:#007C7A;  
     padding-top: 2px; 
     font-family: MS_Sans_Serif;
+
 }
 
 .icontable{
@@ -18,7 +19,7 @@
     background-color: #BEBEBE;
     position: relative;
     margin: 0%;
-    float:center;
+    float:left;
     width: 99%;
     max-width: ;
 }
@@ -48,20 +49,6 @@
     .welcome
     {
         display: none;
-        float: left;
-        padding-left: 40%;
-        font-size: 15px;
-        font-weight: 50;
-        margin:4px; 
-        background-color: #D3D3D3;
-        box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  border-style: inset;
-  padding-inline: 8px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  box-shadow: -2px -2px 0px 0px #000000;
     }
 
     .clock { 
