@@ -43,7 +43,6 @@
         float: left;
         text-align: left;
         margin:2px;
-        width:1%;
 }
 
 
@@ -53,11 +52,11 @@
     }
 
     .clock { 
-        margin:5px;
-text-align: right;
-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
+    margin:2px;
+    text-align: right;
+    box-sizing: border-box;
+  moz-box-sizing: border-box;
+  webkit-box-sizing: border-box;
   border-style: inset;
   padding-inline: 10px;
   padding-top: 2px;
