@@ -36,7 +36,7 @@
     background-color:#BEBEBE;
     border-style: outset;
     width: 100%;
-    line-height: 5%;
+    line-height: 4%;
 }
 
     .start {
@@ -53,7 +53,7 @@
     }
 
     .clock { 
-        margin:7px;
+        margin:5px;
 text-align: right;
 box-sizing: border-box;
   -moz-box-sizing: border-box;
