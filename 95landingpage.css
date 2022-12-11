@@ -1,9 +1,7 @@
 @media (max-width: 500px) {
 .body{
-    background-color:#007C7A; 
-    padding-left: 100px; 
+    background-color:#007C7A;  
     padding-top: 2px; 
-    padding-right:400px; 
     font-family: MS_Sans_Serif;
 }
 
@@ -12,7 +10,6 @@
 }
 
 .table{
-    text-align: justify;
     box-shadow: 2px 2px 0px 0px #000000; 
     box-sizing: border-box;
     moz-box-sizing: border-box;
@@ -22,7 +19,7 @@
     position: relative;
     margin: 0%;
     float:center;
-    width: 300px;
+    width: 99%;
     max-width: ;
 }
 .ispy{
