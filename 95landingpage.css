@@ -1,7 +1,18 @@
-@media (max-width: 481px) {
+@media (max-width: 500px) {
+.body{
+    background-color:#007C7A; 
+    padding-left: 100px; 
+    padding-top: 2px; 
+    padding-right:400px; 
+    font-family: MS_Sans_Serif;
+}
+
+.icontable{
+    padding-bottom: 5px;
+}
 
 .table{
-    align: right;
+    text-align: justify;
     box-shadow: 2px 2px 0px 0px #000000; 
     box-sizing: border-box;
     moz-box-sizing: border-box;
@@ -11,10 +22,12 @@
     position: relative;
     margin: 0%;
     float:center;
-    width: max-content;
+    width: 300px;
+    max-width: ;
 }
 .ispy{
-    width: 1px;
+    line-height: 1px;
+    display: none ;
 }
 .footer{
     float:inline-start;
@@ -31,13 +44,15 @@
         float: left;
         text-align: left;
         margin:2px;
-        width:7%;
-    }
+        width:1%;
+}
+
 
     .welcome
     {
+        display: none;
         float: left;
-        padding-left: 20%;
+        padding-left: 40%;
         font-size: 15px;
         font-weight: 50;
         margin:4px; 
@@ -46,30 +61,39 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   border-style: inset;
-  padding-inline: 10px;
+  padding-inline: 8px;
   padding-top: 8px;
   padding-bottom: 8px;
   box-shadow: -2px -2px 0px 0px #000000;
     }
 
     .clock { 
-        margin:5px;
+        margin:7px;
 text-align: right;
 box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   border-style: inset;
   padding-inline: 10px;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 6px;
+  padding-bottom: 6px;
   font-size: 15px;
   font-weight: 50;
   box-shadow: -2px -2px 0px 0px #000000;
   float: right;
-  width:15%;
+  width:20%;
     }
 }
-@media (min-width: 582px) {
+@media (min-width: 500px) {
+
+    .body{
+        background-color:#007C7A; 
+        padding-left: 100px; 
+        padding-top: 50px; 
+        padding-right:400px; 
+        font-family: MS_Sans_Serif;
+    }
+
     .table{
         width: 80%;
         align: right;
@@ -101,7 +125,7 @@ box-sizing: border-box;
         float: left;
         text-align: left;
         margin:2px;
-        width:7%;
+        width:6%;
     }
 
     .welcome{
