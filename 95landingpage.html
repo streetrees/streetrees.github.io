@@ -19,7 +19,7 @@
     </tr>
 </table>
 
-<table class="table" >
+<table class="tabtable" id="tabtable" >
 <th>
 <table style="background-color:#BEBEBE ; border-width: 5px; width: 100%; height: 40%; border-collapse: collapse">
     <tr>
@@ -28,7 +28,7 @@
             WELCOME TO STREET TREES
         </th>
         <th style="background-color: #00007E; color: white; font-weight: 10; text-align: right; padding-top: 3px;">
-            <img src="xout.png" height="17px" position="right">
+            <img src="xout.png" height="17px" position="right" onclick="clicked()">
         </th>
     </tr>
     <tr>
@@ -54,7 +54,18 @@
 </table>
 </th>
 </table>
+<script>
+    function clicked(){
+        var foo = document.getElementById('tabtable');
 
+        if(foo.style.display == '' || foo.style.display == 'none'){
+            foo.style.display = 'block';
+            }
+        else {
+            foo.style.display = 'none';
+            }
+}
+  </script>
 </body>
 
 <footer class="footer">
