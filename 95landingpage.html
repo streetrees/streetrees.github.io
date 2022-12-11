@@ -54,18 +54,7 @@
 </table>
 </th>
 </table>
-<script>
-    function clicked(){
-        var foo = document.getElementById('tabtable');
 
-        if(foo.style.display == '' || foo.style.display == 'none'){
-            foo.style.display = 'block';
-            }
-        else {
-            foo.style.display = 'none';
-            }
-}
-  </script>
 </body>
 
 <footer class="footer">
@@ -79,7 +68,7 @@
                 </h6>
         </th>
         <th>
-            <h6 class = "welcome">
+            <h6 class = "welcome" id="welcome">
                 WELCOME TO STREET TREES
             </h6>
         </th>
@@ -93,3 +82,17 @@
     </div>
   </footer>
 </html>
+<script>
+    function clicked(){
+        var foo = document.getElementById('tabtable');
+
+        if(foo.style.display == '' || foo.style.display == 'none'){
+            foo.style.display = 'block';
+            }
+        else {
+            foo.style.display = 'none';
+            description = document.getElementsByClassName("welcome")[0]
+            description.innerHTML = "OKAY YOURE ON YOUR OWN"  
+            }   
+    }
+  </script>
