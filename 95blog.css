@@ -3,7 +3,6 @@
         background-color:#007C7A;  
         padding-top: 2px; 
         font-family: MS_Sans_Serif;
-    
     }
     .settingtable{
         margin-top: 4%;
@@ -18,12 +17,14 @@
         box-sizing: border-box;
         border-style: outset; 
         background-color: #BEBEBE;
-        position: relative;
         margin: 0%;
-        width: 100%;
         margin-top: 5%;
     }
 
+        .tbody{
+        display: block;
+        overflow-y: scroll;
+    }
 
     .date{
         border-style: outset;
@@ -33,6 +34,7 @@
         border-style: outset;
     }
     .footer{
+        margin-top: 20px;
         float:inline-start;
         font-family: MS_Sans_Serif; 
         position: fixed; 
@@ -96,7 +98,7 @@
         .settingtable{
             float: left;
             width: 30%; 
-            margin-top: 4%;
+            margin-top: 5%;
             box-shadow: 2px 2px 0px 0px #000000; 
             box-sizing: border-box;
             border-style: outset; 

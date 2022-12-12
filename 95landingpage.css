@@ -1,8 +1,8 @@
 @media (max-width: 500px) {
 .body{
-    background-color:#007C7A;  
     padding-top: 2px; 
     font-family: MS_Sans_Serif;
+    padding-bottom: 10%;
 
 }
 
