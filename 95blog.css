@@ -10,6 +10,7 @@
         box-sizing: border-box;
         border-style: outset; 
         background-color: #BEBEBE;
+        float: center;
     }
 
     .tabtable{
@@ -34,7 +35,6 @@
         border-style: outset;
     }
     .footer{
-        margin-top: 20px;
         float:inline-start;
         font-family: MS_Sans_Serif; 
         position: fixed; 
