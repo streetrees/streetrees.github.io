@@ -6,11 +6,17 @@
     }
 
     .phototable{
-        display: block;
+        width: 100%; 
+        margin-top: 4%;
+        box-shadow: 2px 2px 0px 0px #000000; 
+        box-sizing: border-box;
+        border-style: outset; 
+        background-color: #BEBEBE; 
     }
 
     .settingtable{
         margin-top: 4%;
+        width:100%;
         box-shadow: 2px 2px 0px 0px #000000; 
         box-sizing: border-box;
         border-style: outset; 
@@ -19,6 +25,7 @@
     }
 
     .tabtable{
+        width:100%;
         box-shadow: 2px 2px 0px 0px #000000; 
         box-sizing: border-box;
         border-style: outset; 
