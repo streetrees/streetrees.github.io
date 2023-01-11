@@ -6,7 +6,7 @@
     }
 
     .phototable{
-        width: 100%; 
+        width: 99%; 
         margin-top: 4%;
         box-shadow: 2px 2px 0px 0px #000000; 
         box-sizing: border-box;
@@ -16,7 +16,7 @@
 
     .settingtable{
         margin-top: 4%;
-        width:100%;
+        width:99%;
         box-shadow: 2px 2px 0px 0px #000000; 
         box-sizing: border-box;
         border-style: outset; 
@@ -25,7 +25,7 @@
     }
 
     .tabtable{
-        width:100%;
+        width:99%;
         box-shadow: 2px 2px 0px 0px #000000; 
         box-sizing: border-box;
         border-style: outset; 
@@ -100,8 +100,8 @@
         .phototable{
             float: left;
             width: 25%; 
-            margin-top: 4%;
-            margin-left: 10%;
+            margin-top: 15%;
+            margin-left: 7%;
             box-shadow: 2px 2px 0px 0px #000000; 
             box-sizing: border-box;
             border-style: outset; 
@@ -110,9 +110,9 @@
 
         .tabtableright{
             float: right;
-            margin-top: 10%;
-            margin-right: 15%;
-            width: 30%; 
+            margin-right: 7%;
+            margin-top: 3%;
+            width: 45%; 
             box-shadow: 2px 2px 0px 0px #000000; 
             box-sizing: border-box;
             border-style: outset; 
