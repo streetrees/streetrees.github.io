@@ -3,20 +3,29 @@
         background-color:#007C7A;  
         padding-top: 2px; 
         font-family: MS_Sans_Serif;
+        width:100%
     }
 
     .phototable{
-        width: 99%; 
         margin-top: 4%;
         box-shadow: 2px 2px 0px 0px #000000; 
         box-sizing: border-box;
         border-style: outset; 
         background-color: #BEBEBE; 
+        margin-bottom: 4%;
+    }
+
+    .photo1{
+        width:100%
+    }
+
+    .photo2{
+        width: 100%;
     }
 
     .settingtable{
         margin-top: 4%;
-        width:99%;
+        width:100%;
         box-shadow: 2px 2px 0px 0px #000000; 
         box-sizing: border-box;
         border-style: outset; 
@@ -24,13 +33,12 @@
         float: center;
     }
 
-    .tabtable{
-        width:99%;
+    .tabtableright{
+        width:100%;
         box-shadow: 2px 2px 0px 0px #000000; 
         box-sizing: border-box;
         border-style: outset; 
         background-color: #BEBEBE;
-        margin: 0%;
         margin-top: 5%;
     }
 
