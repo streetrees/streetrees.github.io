@@ -3,7 +3,7 @@
         background-color:#007C7A;  
         padding-top: 2px; 
         font-family: MS_Sans_Serif;
-        width:100%
+        width:100%;
     }
 
     .phototable{
@@ -13,6 +13,7 @@
         border-style: outset; 
         background-color: #BEBEBE; 
         margin-bottom: 4%;
+        width:100%
     }
 
     .photo1{
@@ -30,7 +31,7 @@
         box-sizing: border-box;
         border-style: outset; 
         background-color: #BEBEBE;
-        float: center;
+        width:100%
     }
 
     .tabtableright{
@@ -40,6 +41,7 @@
         border-style: outset; 
         background-color: #BEBEBE;
         margin-top: 5%;
+        width:100%
     }
 
         .tbody{
