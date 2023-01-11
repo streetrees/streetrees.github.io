@@ -5,6 +5,18 @@
         font-family: MS_Sans_Serif;
     }
 
+    .phototable{
+        display: block;
+    }
+
+    .settingtable{
+        margin-top: 4%;
+        box-shadow: 2px 2px 0px 0px #000000; 
+        box-sizing: border-box;
+        border-style: outset; 
+        background-color: #BEBEBE;
+        float: center;
+    }
 
     .tabtable{
         box-shadow: 2px 2px 0px 0px #000000; 
@@ -78,32 +90,44 @@
             padding-left: 3%;
         }
 
+        .phototable{
+            float: left;
+            width: 25%; 
+            margin-top: 4%;
+            margin-left: 10%;
+            box-shadow: 2px 2px 0px 0px #000000; 
+            box-sizing: border-box;
+            border-style: outset; 
+            background-color: #BEBEBE;
+        }
+
         .tabtableright{
             float: right;
-            margin-right: 10%;
+            margin-top: 10%;
+            margin-right: 15%;
             width: 30%; 
-            margin-top: 4%;
             box-shadow: 2px 2px 0px 0px #000000; 
             box-sizing: border-box;
             border-style: outset; 
             background-color: #BEBEBE;
+          
         }
-
-            .tabtableleft{
-            margin-left: 10%;
+        .settingtable{
             float: left;
             width: 30%; 
-            margin-top: 4%;
+            margin-top: 5%;
+            margin-left: 15%;
+            margin-right: 3%;
             box-shadow: 2px 2px 0px 0px #000000; 
             box-sizing: border-box;
             border-style: outset; 
             background-color: #BEBEBE;
         }
-
 
     .tbody{
         display: block;
         overflow-y: scroll;
+        height: 325px
     }
 
     .date{
