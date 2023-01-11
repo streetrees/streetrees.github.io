@@ -5,6 +5,7 @@
         font-family: MS_Sans_Serif;
     }
     .settingtable{
+        width: 100%;
         margin-top: 4%;
         box-shadow: 2px 2px 0px 0px #000000; 
         box-sizing: border-box;
