@@ -11,15 +11,12 @@
 .tabtable{
     box-shadow: 2px 2px 0px 0px #000000; 
     box-sizing: border-box;
-    moz-box-sizing: border-box;
-    webkit-box-sizing: border-box;
     border-style: outset; 
     background-color: #BEBEBE;
     position: relative;
     margin: 0%;
     float:left;
     width: 100%;
-    max-width: ;
 }
 .ispy{
     line-height: 1px;
@@ -54,8 +51,6 @@
     margin-right: 4px;
     text-align: right;
     box-sizing: border-box;
-  moz-box-sizing: border-box;
-  webkit-box-sizing: border-box;
   border-style: inset;
   padding-inline: 2%;
   padding-top: 17px;
@@ -93,8 +88,6 @@
         margin-top: 10%;
         box-shadow: 2px 2px 0px 0px #000000; 
         box-sizing: border-box;
-        moz-box-sizing: border-box;
-        webkit-box-sizing: border-box;
         border-style: outset; 
         background-color: #BEBEBE;
         float: right;
