@@ -1,0 +1,73 @@
+@media (max-width: 500px) {
+
+    .body{
+        width:100%;
+    }
+
+    .arrow{
+        font-size: 100%;
+    }
+
+    .header{
+        width: 100%
+    }
+
+    .img1{
+        width: 30%
+    }
+
+    .img2{
+        width: 45%
+    }
+
+    .img3{
+        width: 45% 
+    }
+
+    .img4{
+        width: 30%
+    }
+
+    .blog{
+        width:100%
+    }
+
+
+}
+
+@media (min-width: 500px) {
+
+    .body{
+        width:100%
+    }
+    
+    .arrow{
+        font-size: 200%;
+    }
+
+    .header{
+        width: 90%
+    }
+
+    .img1{
+        width: 11%
+    }
+
+    .img2{
+        width: 17%
+    }
+
+    .img3{
+        width: 20%
+    }
+
+    .img4{
+        width: 27%
+    }
+    .blog{
+        width:100%;
+
+    }
+
+
+}
