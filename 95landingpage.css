@@ -78,29 +78,28 @@
         background-color:#007C7A; 
         padding-left: 100px; 
         padding-top: 50px; 
-        padding-right:400px; 
+        padding-right:100px; 
         font-family: MS_Sans_Serif;
     }
 
     .icontable{
         border-spacing: 60px 10px;
+        float:left;
     }
 
     .tabtable{
-        width: 80%;
-        align: right;
-        width: 70%; 
+        width: 70%;
         height: 40%; 
-        margin-top: 4%;
+        margin-top: 10%;
         box-shadow: 2px 2px 0px 0px #000000; 
         box-sizing: border-box;
         moz-box-sizing: border-box;
         webkit-box-sizing: border-box;
         border-style: outset; 
         background-color: #BEBEBE;
-        float:right
-    
+        float: right;
     }
+
 .footer{
     vertical-align: middle;
     font-family: MS_Sans_Serif; 
