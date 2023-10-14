@@ -1,0 +1,23 @@
+@media (max-width: 500px) {
+    .body{
+        background-color: #007C7A;
+    }
+    .heading{
+        font-size:25px 
+
+    }
+}
+
+    @media (min-width: 500px) {
+        .body{
+            background-color: #007C7A;
+            font-size:  70px;
+            color: #BEBEBE;
+            font-weight: 600;
+            color: rgba(10,60,150, 0.8);
+            text-shadow: 3px 4px 6px #def, 0 0 0 #000, 1px 4px 6px #def;
+        }
+        .heading{
+        
+        }
+    }

@@ -1,0 +1,118 @@
+@media (min-width: 500px) {
+.body{
+    background-size: 100%; 
+    background-color: #138641;
+        width: 99%;
+        height: 99%;
+        margin: 0%; /* Space from this element (entire page) and others*/
+        padding: 0%; /*space from content and border*/
+        overflow-x:hidden;
+    }
+
+      .module {
+        width: 98%;
+        height: 96%;
+        margin: 0.7%;
+        background: #F0FC78;
+        position: absolute;
+        border: 5px solid blue;
+        border-radius: 1%;
+        outline: 5px solid #25637A; 
+      }
+
+      .innermodule {
+        width: 98%;
+        height: 96%;
+        margin: 0.7%;
+        background: black ;
+        position: absolute;
+        border: 5px solid blue;
+        border-radius: 1%;
+        outline: 5px solid #25637A; 
+      }
+
+
+        .tbody{
+        display: block;
+        overflow-y: scroll;
+    }
+
+.title{
+    font-size: 600%;
+    text-shadow: -3px 3px 1px #25637A;
+}
+
+
+
+.login{
+    padding: 20px; 
+    font-family: 'MrsBeasley';
+    font-size:100%; 
+    color:white; 
+    text-shadow: -2px 2px 1px red;
+    position:absolute; 
+    right:0; 
+    margin-right: 4%; 
+    margin-top: 1.7%; 
+    border-radius: 50%; 
+    border-color: red; 
+    border-style:inset; 
+    border-width: thin;
+    background: url("C:/Users/storm/Downloads/picmix.com_1699668.gif"); 
+    box-shadow: -3px 3px 4px red;
+}
+
+.intro{
+    color:red; 
+    font-family: 'Cardo'; 
+    font-size: 120%; 
+    padding-left: 1%; 
+    text-align: left;
+    vertical-align: text-top;
+}
+
+.welcomeart{
+    width: 20%;
+    height: 40%;
+    position:absolute;
+    right:0;
+    margin-right:10%;
+    margin-top: 5%;
+    background: white;
+    position: absolute;
+    border: 7px solid #FFFB80 ;
+    border-radius: 1%;
+    outline: 5px dotted blue; 
+    
+    
+}
+
+.menuetc{
+    position: relative;
+    font-size: 150%;
+    text-align:left;
+    font-family: 'MrsBeasley';
+    color: blue;
+    border-style: outset;
+    
+    
+}
+
+@font-face{
+    font-family: 'Cardo';
+    src: url("C:/Users/storm/Downloads/Cardo/Cardo-Regular.ttf")
+}
+
+
+ @font-face  {
+    font-family: 'MrsBeasley';
+    font-weight: bold;
+    font-style: normal;
+    src: url("C:/Users/storm/Downloads/mrs-beasley/Mrs Beasley.ttf") ;
+ }
+
+  @font-face {
+    font-family: 'MS_Sans_Serif';
+    src: url("MS Sans Serif 8pt.ttf");
+  }
+}
