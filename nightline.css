@@ -1,20 +1,28 @@
 @media (max-width: 500px) {
     .heading{
         border: 7px solid black;
+        width: 99%;
+}
+
+.gif{
+    max-height: 50px;
 }
 
 .body{
     background-color: black;
-    background-image: url('nightlinebg3.jpg');
+    background-image: url('nightlinebg4.jpg');
+    background-repeat: round;
     background-size: 100%; 
     background-position:top;
     font-family: MS_Sans_Serif;
-    margin: 0
+    margin: 0;
+    width:98%
 }
 
 .menuetc{
-    position: relative;
-    font-size: 150%;
+    position:relative; 
+    margin-bottom: 450%;
+    font-size: 100%;
     color:white ;
     background-color: #00AA00;
     
@@ -25,7 +33,7 @@
     padding-right: 2%;
     text-align: left;
     vertical-align: text-top;
-    font-size: 150%;
+    font-size: 100%;
     color:white ;
 }
 }
@@ -33,6 +41,10 @@
     @media (min-width: 500px) {
         .heading{
                 border: 7px solid black;
+        }
+
+        .gif{
+            max-height: 90px;
         }
 
         .body{
