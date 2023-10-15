@@ -1,5 +1,33 @@
 @media (max-width: 500px) {
+    .heading{
+        border: 7px solid black;
+}
 
+.body{
+    background-color: black;
+    background-image: url('nightlinebg3.jpg');
+    background-size: 100%; 
+    background-position:top;
+    font-family: MS_Sans_Serif;
+    margin: 0
+}
+
+.menuetc{
+    position: relative;
+    font-size: 150%;
+    color:white ;
+    background-color: #00AA00;
+    
+}
+
+.intro{
+    padding-left: 1%; 
+    padding-right: 2%;
+    text-align: left;
+    vertical-align: text-top;
+    font-size: 150%;
+    color:white ;
+}
 }
 
     @media (min-width: 500px) {
