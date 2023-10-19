@@ -1,0 +1,44 @@
+@media (min-width: 500px) {
+    .body{
+        background-color:#00AA00; 
+        background-image: url('nightlinebg4.jpg');
+        padding-top: 0%; 
+        padding-right: 3%;
+        padding-left: 3%;
+        margin-bottom: 20%;
+    }
+
+    .header{
+        color:white;
+        font-size: 150%;
+        margin-top: 6%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+.tabtable{
+    display: fixed;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    margin-top: 1%;
+}
+
+.tbody{
+    display: block;
+    overflow-y: scroll;
+    height: 400px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+
+}
+
+.entry{
+    border-style: inset;
+    background-color: #7fff81;
+}
+
+
+}
+
