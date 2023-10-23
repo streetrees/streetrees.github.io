@@ -1,0 +1,29 @@
+.logo1{
+    font-size:70px; 
+    font-family:UTM_Times; 
+    font-weight: 1; 
+    font-kerning: normal;
+    color: black;
+    text-shadow: -3px 3px 1px #1c584d;
+    padding: 0%;
+}
+
+.centered{
+    font-family:UTM_Times; 
+    font-size: 17px; 
+    padding: 20px;  
+    font-weight: 50;
+    text-align: left;
+
+}
+
+.list-item {
+    display: table-cell;
+    align-content: center;
+}
+
+.table{
+    display:table;
+    text-align: center;
+
+}
