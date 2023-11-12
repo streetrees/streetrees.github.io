@@ -1,105 +1,104 @@
 @media (max-width: 500px) {
-.body{
-    background-color: #005655;
-}
-
-.table{
-    width:50%;
-    display:table;
-    margin-top: 5%;
-    border-collapse: separate;
-    border-spacing: 15px;
-    table-layout: fixed;
-    text-align: center;
-}
-
-.number{
-    background-color: #007C7A;
-    display: table-cell;
-    padding:30px;
-    font-size: 250%;
-    border: 3px outset #999;
-    font-family:monospace;
-    vertical-align: middle;
-    text-align: center;
-    color: #BEBEBE;
+    .body{
+        background-color: #005655;
+    }
     
-}
-
-.nanobody{
-    background-color: #6e6e6e;
-    font-family: monospace;
-    color:#BEBEBE
-}
-
-.tabtable{
-    display: fixed;
-    align-items: center;
-    justify-content: center;
-    width: 100%; 
-    margin-top: 1%;
-}
-
-.tbody{
-    display: block;
-    height: 490px;
-}
-
-.entry{
-    background-color: #BEBEBE;
-
-}
-
-.area{
-    color:black;
-    font-family: monospace;
-    font-size: 120%;
-}
-
-.back{
-    display: table-cell;
-    padding:15px;
-    font-size: 150%;
-    border: 3px outset #999;
-    font-family:monospace;
-    vertical-align: middle;
-    text-align: center;
-    color: #BEBEBE;
-}
-
-#area { 
-    height: 480px; 
-    width: 1450px; 
-    resize: none; 
-    font-size: 15px; 
-    font-weight: 700; 
-    padding: 5px; 
-    margin-top: 15px; 
-    outline: none; 
-    margin-left: 5px;
-
-} 
-
-#area:focus { 
-    outline: none; 
-} 
-
-.result { 
-    color: green; 
-    font-size: 20px; 
-    width: 100%; 
-    text-align: center; 
-    font-weight: 700; 
-    padding: 5px; 
-    border: 2px solid green; 
-    margin-top: 10px; 
-} 
-  
-#word, 
-#char { 
-    font-size: 25px; 
-    font-weight: bold; 
-    text-decoration: underline; 
+    .table{
+        width:50%;
+        display:table;
+        margin-top: 5%;
+        border-collapse: separate;
+        border-spacing: 15px;
+        table-layout: fixed;
+        text-align: center;
+    }
+    
+    .number{
+        background-color: #007C7A;
+        display: table-cell;
+        padding:30px;
+        font-size: 250%;
+        border: 3px outset #999;
+        font-family:monospace;
+        vertical-align: middle;
+        text-align: center;
+        color: #BEBEBE;
+        
+    }
+    
+    .nanobody{
+        background-color: #6e6e6e;
+        font-family: monospace;
+        color:#BEBEBE
+    }
+    
+    .tabtable{
+        display: fixed;
+        align-items: center;
+        justify-content: center;
+        width: 100%; 
+        margin-top: 1%;
+    }
+    
+    .tbody{
+        display: block;
+        height: 90%;
+    }
+    
+    .entry{
+        background-color: #BEBEBE;
+    
+    }
+    
+    .area{
+        color:black;
+        font-family: monospace;
+        font-size: 120%;
+    }
+    
+    .back{
+        display: table-cell;
+        padding:15px;
+        font-size: 150%;
+        border: 3px outset #999;
+        font-family:monospace;
+        vertical-align: middle;
+        text-align: center;
+        color: #BEBEBE;
+    }
+    
+    #area {  
+        width: 96.6em;
+        height: 35em;
+        font-size: 15px; 
+        font-weight: 700; 
+        padding: 5px; 
+        margin-top: 15px; 
+        outline: none; 
+        margin-left: 5px;
+    
+    } 
+    
+    #area:focus { 
+        outline: none; 
+    } 
+    
+    .result { 
+        color: green; 
+        font-size: 20px; 
+        width: 100%; 
+        text-align: center; 
+        font-weight: 700; 
+        padding: 5px; 
+        border: 2px solid green; 
+        margin-top: 10px; 
+    } 
+      
+    #word, 
+    #char { 
+        font-size: 25px; 
+        font-weight: bold; 
+        text-decoration: underline; 
 }
 }
 
@@ -147,7 +146,7 @@
     
     .tbody{
         display: block;
-        height: 550px;
+        height: 90%;
     }
     
     .entry{
@@ -172,10 +171,9 @@
         color: #BEBEBE;
     }
     
-    #area { 
-        height: 490px; 
-        width: 1450px; 
-        resize: none; 
+    #area {  
+        width: 96.6em;
+        height: 35em;
         font-size: 15px; 
         font-weight: 700; 
         padding: 5px; 
