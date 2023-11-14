@@ -13,8 +13,11 @@
         <a href="index.html" target="_self" style="text-decoration: none; color:#BEBEBE" >
             BACK
              </a>
-    
     </header>
+    <div align="center">
+        <button onclick="toggle_play('1')"> <img src="sound.png" 
+          width="30px" style="vertical-align: middle; "></button>
+    </div> 
     <div>
         <table class="tabtable" id="tabtable" >
             <th>
@@ -43,7 +46,7 @@
     I can't remember most of that drive. 
     I was so different then, pushing myself out into those mountains.
     pressing myself into you. 
-    I never thought to ask why I was going.  
+    I never thought about why I was going.  
     Just started driving one morning because I said I would.    
  
     Nobody but you and your mom knew where I was that day. 
@@ -106,7 +109,7 @@
     in orange slivers and gold. We moved softly through creaking wood and the smell of smoke, people in down coats smiling. I never tried to tell 
     you about it, just took your hand and told you I loved you. 
 
-    We stayed too late. It was already four in the afternoon when we left for Portland, too late to start that drive, too late for winter. 
+    It was already four in the afternoon when we left for Portland, too late to start that drive, too late for winter. 
 
     This part I know you remember. 
     As we drove into the pass and the snow began to pick up, the night fell, 
@@ -121,66 +124,13 @@
     That night we gave back what we owed. Driving into the bright lights of Coeur d'Alene, pulling up to the motel, we were quiet as we entered the little green room. 
     I lay down on the bed under the framed sky and watched you silently remove your clothes. 
 
-    The next morning I made us coffee in the hotel room. Then we left early, the sky blue-grey, snow melted to soft piles. 
+    The next morning I made us coffee in the hotel room. Then we left early, the sky blue-grey, snow melted in soft piles. 
 
-    It was an hour before we spoke, still five more hours to go. 
+    It was an hour before we spoke,  
 
-    It's just not going to work. I said. 
+    It's not going to work. I said. 
 
-    You nodded, I know. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    I'm afraid you can't protect me.  
 
                                         </textarea>
                                         </th>
@@ -223,4 +173,20 @@
     </script> 
 </body>
 </html>
+
+<script>
+    is_playing = false
+    function toggle_play(x){
+        var player_name =  "player" + x
+        console.log(is_playing)
+        if(is_playing == false){ 
+            document.getElementById(player_name).play()
+            is_playing = true
+        }else{
+
+            document.getElementById(player_name).pause()
+            is_playing = false
+        } 
+    }
+</script>
 

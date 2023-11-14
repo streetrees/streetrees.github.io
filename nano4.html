@@ -13,8 +13,11 @@
         <a href="index.html" target="_self" style="text-decoration: none; color:#BEBEBE" >
             BACK
              </a>
-    
     </header>
+    <div align="center">
+        <button onclick="toggle_play('1')"> <img src="sound.png" 
+          width="30px" style="vertical-align: middle; "></button>
+    </div> 
     <div>
         <table class="tabtable" id="tabtable" >
             <th>
@@ -60,25 +63,6 @@
                                             It's a maze! these roads to nothing 
                                             Keeping me stuck in motion.
 
-                                            
-                                        
-
-
-                                        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                                         </textarea>
                                         </th>
                                     </tr>
@@ -120,4 +104,19 @@
     </script> 
 </body>
 </html>
+<script>
+    is_playing = false
+    function toggle_play(x){
+        var player_name =  "player" + x
+        console.log(is_playing)
+        if(is_playing == false){ 
+            document.getElementById(player_name).play()
+            is_playing = true
+        }else{
+
+            document.getElementById(player_name).pause()
+            is_playing = false
+        } 
+    }
+</script>
 
