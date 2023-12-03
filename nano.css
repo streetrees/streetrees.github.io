@@ -129,6 +129,19 @@
         color: #BEBEBE;
         
     }
+
+    .start{
+        background-color: #BEBEBE;
+        display: table-cell;
+        padding:30px;
+        font-size: 250%;
+        border: 3px outset #999;
+        font-family:monospace;
+        vertical-align: middle;
+        text-align: center;
+        color: #BEBEBE;
+        
+    }
     
     .nanobody{
         background-color: #6e6e6e;
@@ -205,3 +218,8 @@
         text-decoration: underline; 
 }
 }
+
+@font-face {
+    font-family: 'MS_Sans_Serif';
+    src: url("MS Sans Serif 8pt.ttf");
+  }
