@@ -1,4 +1,10 @@
-
-.body{
-    
+.back{
+    display: table-cell;
+    padding:15px;
+    font-size: 150%;
+    border: 3px outset #999;
+    font-family:monospace;
+    vertical-align: middle;
+    text-align: center;
+    color: #BEBEBE;
 }

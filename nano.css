@@ -131,7 +131,7 @@
     }
 
     .start{
-        background-color: #BEBEBE;
+        background-color: #C3C300;
         display: table-cell;
         padding:30px;
         font-size: 250%;
@@ -139,7 +139,19 @@
         font-family:monospace;
         vertical-align: middle;
         text-align: center;
-        color: #BEBEBE;
+        
+    }
+
+    .blue{
+        background-color: blue;
+        display: table-cell;
+        padding:30px;
+        font-size: 250%;
+        border: 3px outset #999;
+        font-family:monospace;
+        vertical-align: middle;
+        text-align: center;
+        color: blue;
         
     }
     
