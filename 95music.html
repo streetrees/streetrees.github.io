@@ -8,16 +8,16 @@
         <link rel="icon" type="image/x-icon" href="favicon_package_v0.16 (1)/favicon.ico">
         <title>EDGE</title>
     </head>
-    <header class="back">
-        <a href="index.html" target="_self" style="text-decoration: none; color:#BEBEBE" >
+    <!-- <header class="back">
+        <a href="index.html" target="_self" style="text-decoration: none; color:white" >
             BACK
              </a>
-    </header>
-<body class="body" style="background-image: url('bg3.png');background-size: 100%; background-position:center">
+    </header> -->
+<body class="body" style="background-image: url('gardenbg (2).png');background-size: 100%; background-position:center">
 
-<div style="font-family:'Times New Roman', Times, serif ; color:red; font-weight: 800; font-size: 400%;" align="center"  >
+<!-- <div style="font-family:'Times New Roman', Times, serif ; color:blue; font-weight: 800; font-size: 400%;" align="center"  >
     Horse in a River
-</div>
+</div> -->
     <br><br><br>
     <table align="center" class="box100" >
         <tr>
@@ -363,5 +363,44 @@ say something right.
     </table>
  
 </body>
+<footer class="footer">
+    <div>
+        <tr>
+        <th>
+                <h6 class="start">
+                    <a <a href="95landingpage.html" target="_self" >
+                    <img src="start.png" height="40px" class="startimg">
+                    </a>
+                </h6>
+        </th>
+        <th>
+            <h6 class = "welcome" id="welcome" >
+                SAVED FILES
+            </h6>
+        </th>
+        <th>
+                <h6 class="clock">
+                    3:10PM
+                </h6>
+        </th>
+                <div style="clear: both"></div>
+        </tr>
+    </div>
+  </footer>
+</html>
+<script>
+    function clicked(){
+        var foo = document.getElementById('tabtable');
+
+        if(foo.style.display == '' || foo.style.display == 'none'){
+            foo.style.display = 'block';
+            }
+        else {
+            foo.style.display = 'none';
+            description = document.getElementsByClassName("welcome")[0]
+            description.innerHTML = "COOL BACKGROUND HUH?"  
+            }   
+    }
+  </script>
 
 </html>
