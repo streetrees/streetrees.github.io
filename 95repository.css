@@ -66,6 +66,10 @@
       float: right;
       width:20%;
         }
+        span.redacted {
+            color: black;
+            background-color: black;
+        }
     }
 
 
@@ -149,9 +153,15 @@
       float: right;
       width: 4.5%;
         }
+
+        span.redacted {
+            color: black;
+            background-color: black;
+        }
     }
 
     @font-face {
         font-family: 'MS_Sans_Serif';
         src: url("MS Sans Serif 8pt.ttf");
       }
+

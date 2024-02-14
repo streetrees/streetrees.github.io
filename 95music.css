@@ -218,6 +218,7 @@
         background-color: blue; 
         width:35%;
         padding:2%;
+        margin-top: 5%;
         border-style: outset;
         position: relative;
         margin-bottom: 5%;
@@ -230,8 +231,9 @@
         font-size: 120%;
         text-align: left; 
         background-color: blue; 
-        width:35%;
+        width:25%;
         padding:2%;
+        margin-right: 10%;
         border-style: outset;
         position: relative;
         margin-bottom: 5%;
