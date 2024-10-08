@@ -11,7 +11,7 @@
     .header{
         color:white;
         font-size: 150%;
-        margin-top: 6%;
+        margin-top: 3%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -29,14 +29,14 @@
     display: block;
     overflow-y: scroll;
     height: 400px;
-    margin-left: 2%;
     margin-bottom: 2%;
 
 }
 
 .entry{
     border-style: inset;
-    background-color: #7fff81;
+    background-color: #BEBEBE;
+    font-size: 120%;
 }
 
 
