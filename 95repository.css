@@ -2,7 +2,7 @@
     .body{
         background-color:#007C7A;  
         padding-top: 2px; 
-        font-family: MS_Sans_Serif;
+        font-family: UTM_Times;
     }
 
 
@@ -30,7 +30,7 @@
     }
     .footer{
         float:inline-start;
-        font-family: MS_Sans_Serif; 
+        font-family: UTM_Times; 
         position: fixed; 
         bottom: 0; 
         left:0; 
@@ -108,7 +108,7 @@
     }
     .footer{
         vertical-align: middle;
-        font-family: MS_Sans_Serif; 
+        font-family: UTM_Times; 
         position: fixed; 
         bottom: 0; 
         left:0; 
@@ -135,7 +135,7 @@
             padding-top: 8px;
             padding-bottom: 8px;
             font-size: 15px;
-            font-family: MS_Sans_Serif;
+            font-family: UTM_Times;
             box-shadow: -2px -2px 0px 0px #000000;
             width: 15%;
         }
