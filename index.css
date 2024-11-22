@@ -1,51 +1,74 @@
 
 .footer{
-    vertical-align: middle;
-    font-family: MS_Sans_Serif; 
-    position: fixed; 
-    bottom: 0; 
-    left:0; 
-    width: 100%;
-    background-color:#BEBEBE;
-    border-style: outset;
+  vertical-align: middle;
+  font-family: UTM_Times; 
+  position: fixed; 
+  bottom: 0; 
+  left:0; 
+  background-color:#BEBEBE;
+  border-style: outset;
+  width:100%;
 }
 
-    .start {
-        float: left;
-        text-align: left;
-        margin:2px;
-    }
+  .start {
+      float: left;
+      text-align: left;
+      margin:2px;
+      width:6%;
+  }
 
-    .welcome{
-        float: left;
-        margin:4px; 
-        background-color: #D3D3D3;
-        box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  border-style: inset;
-  padding-inline: 10px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  font-size: 15px;
-  box-shadow: -2px -2px 0px 0px #000000;
-    }
-    
-    .clock { 
-        margin:5px;
+  .welcome{
+      float: left;
+      text-align: left;
+      margin:4px; 
+      background-color: #D3D3D3;
+      box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+border-style: inset;
+padding-inline: 10px;
+padding-top: 8px;
+padding-bottom: 8px;
+font-size: 15px;
+box-shadow: -2px -2px 0px 0px #000000;
+  }
+  
+  .clock { 
+      margin:5px;
 text-align: right;
 box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  border-style: inset;
-  padding-inline: 10px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  font-size: 15px;
-  font-weight: 50;
-  box-shadow: -2px -2px 0px 0px #000000;
-  float: right;
-    }
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+border-style: inset;
+padding-inline: 10px;
+padding-top: 6px;
+padding-bottom: 6px;
+font-size: 15px;
+font-weight: 50;
+box-shadow: -2px -2px 0px 0px #000000;
+float: right;
+width: 4.5%;
+  }
+
+  h2{
+    font-size: 100%;
+    color:#97E5E4;
+    margin:0%;
+    background-color: #8C328D;
+  }
+
+
+  h3{
+    font-size: 100%;
+    color:#DEDE5E;
+    margin:0%
+  }
+
+  h4{
+    font-size: 100%;
+    color:white;
+    margin:0%
+  }
 
     @font-face {
         font-family: 'MS_Sans_Serif';
