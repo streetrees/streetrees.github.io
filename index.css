@@ -1,4 +1,49 @@
+@media (max-width: 500px) {
+.footer{
+  float:inline-start;
+  font-family: UTM_Times; 
+  position: fixed; 
+  bottom: 0; 
+  left:0; 
+  background-color:#BEBEBE;
+  border-style: outset;
+  width: 100%;
+  line-height: 4%;
+}
 
+  .start {
+      float: left;
+      text-align: left;
+      margin:2px;
+}
+
+
+  .welcome
+  {
+      display: none;
+  }
+
+  .clock { 
+  margin:2.9px;
+  margin-right: 4px;
+  text-align: right;
+  box-sizing: border-box;
+border-style: inset;
+padding-inline: 2%;
+padding-top: 17px;
+padding-bottom: 15px;
+font-size: 15px;
+font-weight: 50;
+box-shadow: -2px -2px 0px 0px #000000;
+float: right;
+width:20%;
+  }
+}
+
+
+
+
+@media (min-width: 500px) {
 .footer{
   vertical-align: middle;
   font-family: UTM_Times; 
@@ -49,6 +94,7 @@ box-shadow: -2px -2px 0px 0px #000000;
 float: right;
 width: 4.5%;
   }
+}
 
   h2{
     font-size: 100%;
