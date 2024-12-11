@@ -10,21 +10,6 @@
     </head>
 <body class="body" style="background-image: url('pink.png');background-size: 100%; background-position:center ; font-family: UTM_Times;">
 
-    <script>
-        is_playing = false
-        function toggle_play(x){
-            var player_name =  "player" + x
-            console.log(is_playing)
-            if(is_playing == false){ 
-                document.getElementById(player_name).play()
-                is_playing = true
-            }else{
-
-                document.getElementById(player_name).pause()
-                is_playing = false
-            } 
-        }  
-    </script>
     <table class="tabtable" id="tabtable">
         <th>
         <table style="background-color:#BEBEBE ; border-width: 5px; border-collapse: collapse">
@@ -173,17 +158,3 @@ and so he motions, and I come forward, I always come forward.
                     </div>
                   </footer>
                 </html>
-                <script>
-                    function clicked(){
-                        var foo = document.getElementById('tabtable');
-                
-                        if(foo.style.display == '' || foo.style.display == 'none'){
-                            foo.style.display = 'block';
-                            }
-                        else {
-                            foo.style.display = 'none';
-                            description = document.getElementsByClassName("welcome")[0]
-                            description.innerHTML = "COOL BACKGROUND HUH?"  
-                            }   
-                    }
-                  </script>
