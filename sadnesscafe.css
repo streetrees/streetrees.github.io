@@ -1,0 +1,190 @@
+@media (max-width: 500px) {
+    .body{
+        background-color:#007C7A;  
+        padding-top: 2px; 
+        font-family: UTM_Times;
+    }
+
+
+    .title{
+        width:100%;
+        margin-top: 1%;
+    }
+
+    .settingtable{
+        width: 100%;
+        margin-top: 4%;
+        box-shadow: 2px 2px 0px 0px #000000; 
+        box-sizing: border-box;
+        border-style: outset; 
+        background-color: #BEBEBE;
+        float: center;
+    }
+
+    .tabtable{
+        box-shadow: 2px 2px 0px 0px #000000; 
+        box-sizing: border-box;
+        border-style: outset; 
+        background-color: #BEBEBE;
+        margin: 0%;
+        margin-top: 5%;
+    }
+
+        .tbody{
+        display: block;
+        overflow-y: scroll;
+    }
+
+    .date{
+        border-style: outset;
+    }
+
+    .entry{
+        border-style: outset;
+    }
+    .footer{
+        float:inline-start;
+        font-family: UTM_Times; 
+        position: fixed; 
+        bottom: 0; 
+        left:0; 
+        background-color:#BEBEBE;
+        border-style: outset;
+        width: 100%;
+        line-height: 4%;
+    }
+    
+        .start {
+            float: left;
+            text-align: left;
+            margin:2px;
+    }
+    
+    
+        .welcome
+        {
+            display: none;
+        }
+    
+        .clock { 
+        margin:2.9px;
+        margin-right: 4px;
+        text-align: right;
+        box-sizing: border-box;
+      border-style: inset;
+      padding-inline: 2%;
+      padding-top: 17px;
+      padding-bottom: 15px;
+      font-size: 15px;
+      font-weight: 50;
+      box-shadow: -2px -2px 0px 0px #000000;
+      float: right;
+      width:20%;
+        }
+    }
+
+
+
+    @media (min-width: 500px) {
+        .body{
+            background-color:#007C7A; 
+            padding-top: 0%; 
+            padding-right: 3%;
+            padding-left: 3%;
+        }
+
+        .title{
+            width:50%;
+            margin-top: 1%;
+        }
+
+        .tabtable{
+            float: right;
+            width: 100%; 
+            margin-top: 4%;
+            box-shadow: 2px 2px 0px 0px #000000; 
+            box-sizing: border-box;
+            border-style: outset; 
+            background-color: #BEBEBE;
+        }
+
+        .settingtable{
+            float: left;
+            width: 18%; 
+            margin-top: 5%;
+            box-shadow: 2px 2px 0px 0px #000000; 
+            box-sizing: border-box;
+            border-style: outset; 
+            background-color: #BEBEBE;
+        }
+
+    .tbody{
+        display: block;
+        overflow-y: scroll;
+        height: 300px;
+
+    }
+
+    .date{
+        border-style: outset;
+    }
+
+    .entry{
+        border-style: outset;
+    }
+
+
+    .footer{
+        vertical-align: middle;
+        font-family: UTM_Times; 
+        position: fixed; 
+        bottom: 0; 
+        left:0; 
+        background-color:#BEBEBE;
+        border-style: outset;
+        width:100%;
+    }
+    
+        .start {
+            float: left;
+            text-align: left;
+            margin:2px;
+            width:6%;
+        }
+    
+        .welcome{
+            float: left;
+            text-align: left;
+            margin:4px; 
+            background-color: #D3D3D3;
+            box-sizing: border-box;
+            border-style: inset;
+            padding-inline: 10px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            font-size: 15px;
+            font-family: UTM_Times;
+            box-shadow: -2px -2px 0px 0px #000000;
+            width: 15%;
+        }
+        
+        .clock { 
+            margin:5px;
+    text-align: right;
+    box-sizing: border-box;
+      border-style: inset;
+      padding-inline: 10px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      font-size: 15px;
+      font-weight: 50;
+      box-shadow: -2px -2px 0px 0px #000000;
+      float: right;
+      width: 4.5%;
+        }
+    }
+
+    @font-face {
+        font-family: 'MS_Sans_Serif';
+        src: url("MS Sans Serif 8pt.ttf");
+      }
