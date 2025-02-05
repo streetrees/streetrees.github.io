@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html width="100%">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="user-scalable=no,width=device-width" />
+        <link href="https://github.com/streetrees/streetrees.github.io/blob/2da1fc8b8c2b7c921f82a01d250daff138d7b64e/MS%20Sans%20Serif%208pt.ttf" rel="stylesheet">
+        <link rel="stylesheet" href="sadnesscafe2.css">
+        <link rel="icon" type="image/x-icon" href="favicon_package_v0.16 (1)/favicon.ico">
+        <title>SadnessCafe</title>
+    </head>
+<body class="body" style="background-image: url('redwhite.jpg');background-size: 40%; background-position:center ; font-family: UTM_Times;">
+
+    <img src="sadcafe3.gif" class="title" >
+
+</body>
+
+  <div id="board">
+    <div class="note draggable">
+        <div class="text" style="margin:15%; margin-bottom: 5%;">
+Sample text
+      </div>
+      </div>
+  </div>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+  <script type="text/javascript">
+    $( function() {
+      $( ".draggable" ).draggable();
+      $(".add_new").click(function() {
+         $sticky = $("<div class='note draggable'><div class='text'><textarea class='cnt' placeholder='Enter note description here'></textarea></div></div>");
+        $("#board").append($sticky);
+         $( ".draggable" ).draggable();
+      });
+    });
+  </script>
+<br><br>
+<br><br>
+<footer class="footer">
+    <div>
+        <tr>
+        <th>
+                <h6 class="start">
+                    <a <a href="index.html" target="_self" >
+                    <img src="start.png" height="40px" class="startimg">
+                    </a>
+                </h6>
+        </th>
+        <th>
+            <h6 class = "welcome" id="welcome" >
+                &nbsp <a href="95landingpage.html" target="_self " style="text-decoration: none; color:black" >SADNESS</a> CAFE
+            </h6>
+        </th>
+        <th>
+                <h6 class="clock">
+                    3:10PM
+                </h6>
+        </th>
+                <div style="clear: both"></div>
+        </tr>
+    </div>
+  </footer>
+</html>
