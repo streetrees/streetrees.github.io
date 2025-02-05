@@ -42,6 +42,81 @@
     .entry{
         border-style: outset;
     }
+
+/* NOTE */
+.text  {
+    font-family: monospace
+  }
+  .alb {
+    float: center;
+    display: block;
+    position: relative;
+    padding: 1em;
+    width: 60%;
+    height: 140px;
+    /* margin: 0 30px 30px 0; */
+    margin-top: 4%;
+    background: linear-gradient(top, rgba(0,0,0,.05), rgba(0,0,0,.25));
+    background-image: url("C:/Users/storm/OneDrive/Documents/GitHub/streetrees.github.io/alb.JPG"); opacity:0.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 5px 10px -2px rgba(33,33,33,.3);  
+    transform: rotate(-2deg);
+    /* transform: skew(-1deg,1deg); */
+    transition: transform .15s;
+    z-index: 1;
+  }
+
+  .note2 {
+    float: right;
+    display: block;
+    position:relative;
+    padding: 1em; 
+    width:60%;
+    height:140px;
+    /* margin: 0 30px 30px 0;  */
+    background: linear-gradient(top, rgba(0,0,0,.05), rgba(0,0,0,.25));
+    background-image: url("C:/Users/storm/OneDrive/Documents/GitHub/streetrees.github.io/light.JPG"); opacity:0.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 5px 10px -2px rgba(33,33,33,.3);  
+    transform: rotate(2deg);
+    transform: skew(-1deg,1deg);
+    transition: transform .15s;
+    z-index: 1;
+  }
+
+  .snow {
+    float: left;
+    display: block;
+    position: relative;
+    padding: 1em;
+    width: 60%;
+    min-height: 140px;
+    /* margin: 0 30px 30px 0; */
+    /* margin-top: 3%; */
+    background: linear-gradient(top, rgba(0,0,0,.05), rgba(0,0,0,.25));
+    background-image: url("C:/Users/storm/OneDrive/Documents/GitHub/streetrees.github.io/tree1.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 5px 10px -2px rgba(33,33,33,.3);  
+    transform: rotate(-1deg);
+    transform: skew(-1deg,1deg);
+    transition: transform .15s;
+    z-index: 1;
+  }
+
+  .note:hover {
+    cursor: move;
+  }
+
+
+.text2{
+font-size: 150%;
+}
+
+
+
     .footer{
         float:inline-start;
         font-family: UTM_Times; 
@@ -89,8 +164,8 @@
         .body{
             background-color:#007C7A; 
             padding-top: 0%; 
-            padding-right: 3%;
-            padding-left: 3%;
+            padding-right: 0%;
+            padding-left: 0%;
         }
 
         .title{
@@ -138,16 +213,38 @@
       .text  {
         font-family: monospace
       }
-      .note {
+      .alb {
         float: right;
         display: block;
         position: relative;
         padding: 1em;
-        width: 300px;
+        width: 400px;
         min-height: 300px;
         margin: 0 30px 30px 0;
+        margin-top: 2%;
         background: linear-gradient(top, rgba(0,0,0,.05), rgba(0,0,0,.25));
-        background-image: url("C:/Users/storm/OneDrive/Documents/GitHub/streetrees.github.io/cpap3.jpg");
+        background-image: url("C:/Users/storm/OneDrive/Documents/GitHub/streetrees.github.io/alb.JPG"); opacity: 0.5;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 5px 5px 10px -2px rgba(33,33,33,.3);  
+        transform: rotate(-2deg);
+        /* transform: skew(-1deg,1deg); */
+        transition: transform .15s;
+        z-index: 1;
+      }
+
+
+      .note2 {
+        float: right;
+        display: block;
+        position: relative;
+        padding: 1em;
+        width: 400px;
+        min-height: 300px;
+        margin: 0 30px 30px 0;
+        margin-top: 10%;
+        background: linear-gradient(top, rgba(0,0,0,.05), rgba(0,0,0,.25));
+        background-image: url("C:/Users/storm/OneDrive/Documents/GitHub/streetrees.github.io/light.JPG"); opacity: 0.5;
         background-repeat: no-repeat;
         background-size: cover;
         box-shadow: 5px 5px 10px -2px rgba(33,33,33,.3);  
@@ -156,12 +253,35 @@
         transition: transform .15s;
         z-index: 1;
       }
+
+      .snow {
+        float: right;
+        display: block;
+        position: relative;
+        padding: 1em;
+        width: 400px;
+        min-height: 300px;
+        margin: 0 30px 30px 0;
+        margin-top: 3%;
+        background: linear-gradient(top, rgba(0,0,0,.05), rgba(0,0,0,.25));
+        background-image: url("C:/Users/storm/OneDrive/Documents/GitHub/streetrees.github.io/tree1.JPG");
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 5px 5px 10px -2px rgba(33,33,33,.3);  
+        transform: rotate(2deg);
+        transform: skew(-1deg,1deg);
+        transition: transform .15s;
+        z-index: 1;
+      }
+
       .note:hover {
         cursor: move;
       }
 
 
-
+    .text2{
+    font-size: 250%;
+    }
 
 
     .footer{

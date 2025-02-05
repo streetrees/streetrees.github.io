@@ -8,16 +8,17 @@
         <link rel="icon" type="image/x-icon" href="favicon_package_v0.16 (1)/favicon.ico">
         <title>SadnessCafe</title>
     </head>
-<body class="body" style="background-image: url('redwhite.jpg');background-size: 40%; background-position:center ; font-family: UTM_Times;">
-
-    <img src="sadcafe3.gif" class="title" >
-
-</body>
+    <header style="background-color: #f5f2e2; margin:0" margin="0">
+        <div>
+            <img src="st3.gif" class="title"  >
+        </div>
+    </header>
+<body class="body" style="background-image: url('bg6.jpg');background-size: 40%; background-position:center ; font-family: UTM_Times;">
 
   <div id="board">
-    <div class="note draggable">
-        <div class="text" style="margin:15%; margin-bottom: 5%;">
-Sample text
+    <div class="alb draggable">
+        <div class="text" style="margin:15%; margin-top: 0%; margin-right:5%; " align="center" >
+        <!-- <img src="tt.png" width="11%" style="transform:rotate(30deg);" > -->
       </div>
       </div>
   </div>
@@ -33,8 +34,53 @@ Sample text
       });
     });
   </script>
+    <div id="board">
+        <div class="note2 draggable">
+            <div class="text" style="margin:15%; margin-top: 0%;" align="center">
+            <!-- <img src="tt.png" width="13%" style="transform:rotate(30deg);" > -->
+          </div>
+          </div>
+      </div>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+      <script type="text/javascript">
+        $( function() {
+          $( ".draggable" ).draggable();
+          $(".add_new").click(function() {
+             $sticky = $("<div class='note draggable'><div class='text'><textarea class='cnt' placeholder='Enter note description here'></textarea></div></div>");
+            $("#board").append($sticky);
+             $( ".draggable" ).draggable();
+          });
+        });
+      </script>
+        </script>
+        <a href="95landingpage.html" target="_self" >
+        <div id="board">
+            <div class="snow draggable">
+                <div class="text" style="margin:15%; margin-top: 0%; margin-left: 3%;" align="center">
+                <!-- <img src="tt.png" width="11%" style="transform:rotate(30deg);" > -->
+                <br><br>
+              </div>
+              </div>
+          </div>
+          <div>
+          </div>
+          <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+          <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+          <script type="text/javascript">
+            $( function() {
+              $( ".draggable" ).draggable();
+              $(".add_new").click(function() {
+                 $sticky = $("<div class='note draggable'><div class='text'><textarea class='cnt' placeholder='Enter note description here'></textarea></div></div>");
+                $("#board").append($sticky);
+                 $( ".draggable" ).draggable();
+              });
+            });
+          </script>
+        </a>
 <br><br>
 <br><br>
+</body>
 <footer class="footer">
     <div>
         <tr>
@@ -47,7 +93,7 @@ Sample text
         </th>
         <th>
             <h6 class = "welcome" id="welcome" >
-                &nbsp <a href="95landingpage.html" target="_self " style="text-decoration: none; color:black" >SADNESS</a> CAFE
+                &nbsp <a href="95landingpage.html" target="_self " style="text-decoration: none; color:black" >COMMUNITY BOARD
             </h6>
         </th>
         <th>
