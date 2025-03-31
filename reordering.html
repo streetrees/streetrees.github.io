@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentence Filter and Paragraph Length</title>
+</head>
+<body>
+    <h2>Generated Paragraph (Filtered and Reordered)</h2>
+    
+    <h3>Choose Number of Sentences for the Resulting Paragraph</h3>
+    <select id="sentenceCount">
+        <option value="1">1 sentence</option>
+        <option value="2">2 sentences</option>
+        <option value="3">3 sentences</option>
+        <option value="4">4 sentences</option>
+        <option value="5">5 sentences</option>
+        <option value="10">10 sentences</option>
+        <option value="all">All sentences</option>
+    </select>
+    
+    <button onclick="loadContent()">Load and Process Content</button>
+    <button onclick="generateParagraph()">Generate Paragraph</button>
+    
+    <h3>Generated Paragraph:</h3>
+    <p id="resultParagraph"></p>
+    
+    <script>
+        let sentences = [];  // Array to hold the processed sentences
+
+        // Function to fetch the content from the source HTML page and process it
+        function loadContent() {
+            fetch('https://streetrees.com/95blogdump.html')  // Load content from source.html
+                .then(response => response.text())
+                .then(data => {
+                    // Extract the text content from the HTML response (assuming you want only the text)
+                    const textContent = new DOMParser().parseFromString(data, 'text/html').body.innerText;
+                    sentences = splitIntoSentences(textContent);  // Process the fetched content and store the sentences
+                    alert('Content loaded and processed! Now you can generate the paragraph.');
+                })
+                .catch(error => console.error('Error loading content:', error));
+        }
+
+        // Function to process the text content by splitting it into sentences
+        function splitIntoSentences(text) {
+            const sentenceEndings = /(?<=[.!?,])\s+|<br\s*\/?>/g;
+            
+            // Split the text based on sentence endings and <br> tags
+            let sentences = text.split(sentenceEndings).filter(sentence => sentence.trim() !== '');
+            
+            // Remove sentences that begin with "20xx" (year-like sentences)
+            sentences = sentences.filter(sentence => !/^20\d{2}/.test(sentence.trim()));
+            
+            // Remove sentences that contain "ENTRY" (case-sensitive)
+            sentences = sentences.filter(sentence => !/ENTRY/.test(sentence.trim()));
+            
+            // Shuffle the sentences randomly
+            sentences = shuffleArray(sentences);
+            
+            return sentences;
+        }
+
+        // Function to shuffle the sentences array randomly
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+            }
+            return array;
+        }
+
+        // Function to generate the resulting paragraph based on selected number of sentences
+        function generateParagraph() {
+            if (sentences.length === 0) {
+                alert('Please load and process content first by clicking "Load and Process Content".');
+                return;
+            }
+
+            const sentenceCount = document.getElementById("sentenceCount").value;
+            
+            let result = '';
+            
+            // Determine the number of sentences based on user selection
+            let numberOfSentences = sentenceCount === 'all' ? sentences.length : parseInt(sentenceCount);
+            
+            // Limit the number of sentences
+            result = sentences.slice(0, numberOfSentences).join(' ');
+            
+            // Display the result in the paragraph
+            document.getElementById("resultParagraph").innerText = result;
+        }
+    </script>
+</body>
+</html>
+
