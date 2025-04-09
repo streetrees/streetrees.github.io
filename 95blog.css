@@ -35,6 +35,7 @@
     .entry{
         border-style: outset;
     }
+
     .footer{
         float:inline-start;
         font-family: UTM_Times; 
@@ -176,3 +177,4 @@
         font-family: 'MS_Sans_Serif';
         src: url("MS Sans Serif 8pt.ttf");
       }
+
