@@ -4,15 +4,6 @@
         padding-top: 2px; 
         font-family: UTM_Times;
     }
-    .settingtable{
-        width: 100%;
-        margin-top: 4%;
-        box-shadow: 2px 2px 0px 0px #000000; 
-        box-sizing: border-box;
-        border-style: outset; 
-        background-color: #BEBEBE;
-        float: center;
-    }
 
     .tabtable{
         box-shadow: 2px 2px 0px 0px #000000; 
@@ -20,20 +11,34 @@
         border-style: outset; 
         background-color: #BEBEBE;
         margin: 0%;
+        margin-right: 5%;
         margin-top: 5%;
+        display: block;
+        width:100%
     }
 
-        .tbody{
+    .innertable{
+        margin: 0%;
+        margin-right: 5%;
         display: block;
+        width:100%
+    }
+
+
+    .tbody{
+        display:contents;
         overflow-y: scroll;
+        width:100vh
     }
 
     .date{
         border-style: outset;
+        width:10%
     }
 
     .entry{
         border-style: outset;
+        width:90%
     }
 
     .footer{
@@ -87,6 +92,12 @@
             padding-left: 3%;
         }
 
+        .innertable{
+            width:100%;
+            min-width: 100%;
+        }
+
+
         .tabtable{
             float: right;
             width: 100%; 
@@ -97,29 +108,29 @@
             background-color: #BEBEBE;
         }
 
-        .settingtable{
-            float: left;
-            width: 18%; 
-            margin-top: 5%;
-            box-shadow: 2px 2px 0px 0px #000000; 
-            box-sizing: border-box;
-            border-style: outset; 
-            background-color: #BEBEBE;
+        .entryholder{
+            min-width: 100%;
+            table-layout: fixed;
         }
 
+
     .tbody{
+        table-layout: fixed;
         display: block;
         overflow-y: scroll;
         height: 515px;
-
+        min-width: 100%;
     }
 
     .date{
         border-style: outset;
+        width:100px
     }
 
     .entry{
         border-style: outset;
+        width:1500px;
+        padding-left: 5%;
     }
 
 
@@ -178,3 +189,7 @@
         src: url("MS Sans Serif 8pt.ttf");
       }
 
+    b {
+        font-weight: bold;
+        font-family: inherit;
+    }

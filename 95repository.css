@@ -5,29 +5,46 @@
         font-family: UTM_Times;
     }
 
-
     .tabtable{
-        width: 100%;
         box-shadow: 2px 2px 0px 0px #000000; 
         box-sizing: border-box;
         border-style: outset; 
         background-color: #BEBEBE;
-        margin-top: 4%;
-        float: center;
+        margin: 0%;
+        margin-right: 5%;
+        margin-top: 5%;
+        display: block;
+        width:100%;
     }
 
-        .tbody{
+    .innertable{
+        margin: 0%;
+        margin-right: 5%;
         display: block;
+        width:100%
+    }
+
+    .entryholder{
+        min-width: 100%;
+        table-layout: fixed;
+    }
+
+    .tbody{
+        display:contents;
         overflow-y: scroll;
+        width:100vh;
     }
 
     .date{
         border-style: outset;
+        max-width:55px;
+        overflow-wrap: break-word;        /* Hide anything that overflows */
     }
 
     .entry{
         border-style: outset;
     }
+
     .footer{
         float:inline-start;
         font-family: UTM_Times; 
@@ -67,10 +84,6 @@
       float: right;
       width:20%;
         }
-        span.redacted {
-            color: black;
-            background-color: black;
-        }
     }
 
 
@@ -83,7 +96,15 @@
             padding-left: 3%;
         }
 
+        .innertable{
+            width:100%;
+            min-width: 100%;
+        }
+
+
         .tabtable{
+            float: right;
+            width: 100%; 
             margin-top: 4%;
             box-shadow: 2px 2px 0px 0px #000000; 
             box-sizing: border-box;
@@ -91,21 +112,32 @@
             background-color: #BEBEBE;
         }
 
+        .entryholder{
+            min-width: 100%;
+            table-layout: fixed;
+        }
+
 
     .tbody{
+        table-layout: fixed;
         display: block;
         overflow-y: scroll;
         height: 515px;
-
+        min-width: 100%;
     }
 
     .date{
         border-style: outset;
+        width:100px
     }
 
     .entry{
         border-style: outset;
+        width:1500px;
+        padding-left: 5%;
     }
+
+
     .footer{
         vertical-align: middle;
         font-family: UTM_Times; 
@@ -154,11 +186,6 @@
       float: right;
       width: 4.5%;
         }
-
-        span.redacted {
-            color: black;
-            background-color: black;
-        }
     }
 
     @font-face {
@@ -166,3 +193,7 @@
         src: url("MS Sans Serif 8pt.ttf");
       }
 
+    b {
+        font-weight: bold;
+        font-family: inherit;
+    }
