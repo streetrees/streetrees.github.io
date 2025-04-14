@@ -37,8 +37,7 @@
 
     .date{
         border-style: outset;
-        max-width:55px;
-        overflow-wrap: break-word;        /* Hide anything that overflows */
+      /* Hide anything that overflows */
     }
 
     .entry{
