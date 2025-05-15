@@ -1,6 +1,6 @@
 @media (max-width: 500px) {
     .body{
-        background-color:#007C7A;  
+        background-color:#558bbc;  
         padding-top: 2px; 
         font-family: UTM_Times;
     }
@@ -86,7 +86,7 @@
 
     @media (min-width: 500px) {
         .body{
-            background-color:#007C7A; 
+            background-color:#558bbc; 
             padding-top: 0%; 
             padding-right: 3%;
             padding-left: 3%;
@@ -97,7 +97,7 @@
             box-shadow: 2px 2px 0px 0px #000000; 
             box-sizing: border-box;
             border-style: outset; 
-            background-color: #BEBEBE;
+            background-color: #ede4d4;
             
         }
 

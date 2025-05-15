@@ -1,9 +1,9 @@
 @media (max-width: 500px) {
-    .body{
+    .body1{
         background-color: #005655;
     }
     
-    .table{
+    .table1{
         width:100%;
         display:table;
         margin-top: 5%;
@@ -14,7 +14,7 @@
         padding-top: 20%;
     }
     
-    .number{
+    .number1{
         background-color: #007C7A;
         display: table-cell;
         padding:30px;
@@ -26,14 +26,27 @@
         color: #BEBEBE;
         
     }
+
+    .letter1{
+        background-color: #007C7A;
+        display: table-cell;
+        padding:30px;
+        font-size: 100%;
+        border: 3px outset #999;
+        font-family:'Times New Roman', Times, serif;
+        vertical-align: middle;
+        text-align: center;
+        color: white;
+        
+    }
     
-    .nanobody{
+    .nanobody1{
         background-color: #6e6e6e;
         font-family: monospace;
         color:#BEBEBE
     }
     
-    .tabtable{
+    .tabtable1{
         display: fixed;
         align-items: center;
         justify-content: center;
@@ -41,17 +54,17 @@
         margin-top: 1%;
     }
     
-    .tbody{
+    .tbody1{
         display: block;
         height: 90%;
     }
     
-    .entry{
+    .entry1{
         background-color: #BEBEBE;
     
     }
 
-    .start{
+    .start1{
         background-color: #C3C300;
         display: table-cell;
         padding:30px;
@@ -63,11 +76,11 @@
         
     }
 
-    .blue{
+    .blue1{
         background-color: blue;
         display: table-cell;
         padding:30px;
-        font-size: 50%;
+        font-size: 10%;
         border: 3px outset #999;
         font-family:'Times New Roman', Times, serif;
         vertical-align: middle;
@@ -76,7 +89,7 @@
         
     }
     
-    .area{
+    .area1{
         color:black;
         font-family: monospace;
         font-size: 120%;
@@ -129,11 +142,11 @@
 }
 
 @media (min-width: 500px) {
-    .body{
+    .body1{
         background-color: #005655;
     }
     
-    .table{
+    .table1{
         width:50%;
         display:table;
         margin-top: 5%;
@@ -142,8 +155,18 @@
         table-layout: fixed;
         text-align: center;
     }
+
+    .letter1{
+
+        font-size: 150%;
+        font-family:'Times New Roman', Times, serif;
+        vertical-align: middle;
+        text-align: center;
+        color: white;
+        
+    }
     
-    .number{
+    .number1{
         background-color: #007C7A;
         display: table-cell;
         padding:30px;
@@ -152,11 +175,11 @@
         font-family:'Times New Roman', Times, serif;
         vertical-align: middle;
         text-align: center;
-        color: #BEBEBE;
+        color: white;
         
     }
 
-    .start{
+    .start1{
         background-color: #C3C300;
         display: table-cell;
         padding:30px;
@@ -168,7 +191,7 @@
         
     }
 
-    .blue{
+    .blue1{
         background-color: blue;
         display: table-cell;
         padding:30px;
@@ -181,13 +204,13 @@
         
     }
     
-    .nanobody{
+    .nanobody1{
         background-color: #6e6e6e;
         font-family: monospace;
         color:#BEBEBE
     }
     
-    .tabtable{
+    .tabtable1{
         display: fixed;
         align-items: center;
         justify-content: center;
@@ -195,23 +218,23 @@
         margin-top: 1%;
     }
     
-    .tbody{
+    .tbody1{
         display: block;
         height: 90%;
     }
     
-    .entry{
+    .entry1{
         background-color: #BEBEBE;
     
     }
     
-    .area{
+    .area1{
         color:black;
         font-family: monospace;
         font-size: 120%;
     }
     
-    .back{
+    .back1{
         display: table-cell;
         padding:15px;
         font-size: 150%;
@@ -222,39 +245,6 @@
         color: #BEBEBE;
     }
     
-    #area {  
-        width: 95em;
-        height: 33em;
-        font-size: 15px; 
-        font-weight: 700; 
-        padding: 5px; 
-        margin-top: 15px; 
-        outline: none; 
-        margin-left: 5px;
-    
-    } 
-    
-    #area:focus { 
-        outline: none; 
-    } 
-    
-    .result { 
-        color: green; 
-        font-size: 20px; 
-        width: 100%; 
-        text-align: center; 
-        font-weight: 700; 
-        padding: 5px; 
-        border: 2px solid green; 
-        margin-top: 10px; 
-    } 
-      
-    #word, 
-    #char { 
-        font-size: 25px; 
-        font-weight: bold; 
-        text-decoration: underline; 
-}
 }
 
 @font-face {
