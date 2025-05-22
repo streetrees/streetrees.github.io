@@ -9,6 +9,10 @@
         padding-top: env(safe-area-inset-top);
     }
 
+    .body{
+        background-color: #000000;
+    }
+
     .tabtable{
         box-shadow: 2px 2px 0px 0px #000000; 
         box-sizing: border-box;
@@ -109,7 +113,7 @@
 
     @media (min-width: 500px) {
         .body{
-            background-color:white; 
+            background-color:black; 
             padding-top: 0%; 
             padding-right: 3%;
             padding-left: 3%;
