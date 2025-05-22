@@ -1,6 +1,6 @@
 @media (max-width: 500px) {
     .body::before{
-        background-color:white;  
+        background-color:black;  
         padding-top: 2px; 
         font-family: UTM_Times;
         background-repeat: no-repeat;
