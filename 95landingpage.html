@@ -77,7 +77,7 @@ Over time, we could construct our own world.
 Buildings are always built by other people and stand at the horizon for many years, long after the people who built 
 them have gone. 
 <br><br>
-We split our vision between the real and the virtual worlds, I could construct a sign below the <a href="95blogdump.html" target="_self" style="text-decoration:none; color: black;">
+We split our vision between the real and the virtual worlds, I could construct a sign below the <a style="text-decoration:none; color: black;" onclick="checkPassword()">
     bridge</a>,
 <br><br> or I could show you myself
 here, this way. 
@@ -301,6 +301,16 @@ Please send questions and comments about the project to: streetrees.com@gmail.co
     </div>
   </footer>
 </html>
+    <script>
+        function checkPassword() {
+            var password = prompt("ran into the decreasing ______ again");
+            if (password === "speed limits") {
+                window.location.href = "95blogdump.html"; // Target page
+            } else {
+                alert("Incorrect password. Access denied.");
+            }
+        }
+    </script>
 <script>
     function clicked(){
         var foo = document.getElementById('tabtable');
