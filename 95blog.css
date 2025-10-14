@@ -11,19 +11,27 @@
 
     .body{
         background-color: #000000;
+        overflow: hidden;
     }
 
+
     .tabtable{
-        box-shadow: 2px 2px 0px 0px #000000; 
-        box-sizing: border-box;
-        border-style: outset; 
-        background-color: #BEBEBE;
+        background-color: white;
         margin: 0%;
         margin-right: 5%;
-        margin-top: 5%;
+        margin-top: 35%;
         display:block;
         width:100%;
 
+    }
+
+    .tabtop{
+        background-color: #828282; 
+        font-weight: 10; 
+        text-align: left; 
+        border-left: #828282; 
+        padding-left: 3px;
+        display:none
     }
 
     .tabtable_centered{
@@ -42,11 +50,12 @@
         margin: 0%;
         margin-right: 5%;
         display: block;
-        width:100%
+        width:100%;
+        background-color:white ;
     }
 
 
-    .tbody{
+    /* .tbody{
         display:contents;
         overflow-y: scroll;
         width:100vh
@@ -56,16 +65,36 @@
         display:contents;
         overflow-y: scroll;
         width:100vh
+    } */
+
+        .tbody{
+        table-layout: fixed;
+        display: block;
+        overflow-y: scroll;
+        height: 400px;
+        min-width: 100%;
+    }
+
+    .tbody_collapse{
+        table-layout: fixed;
+        display: block;
+        overflow-y: scroll;
+        height: auto;
+        min-width: 100%;
     }
 
     .date{
-        border-style: outset;
-        width:10%
+        display: none;
+        font-weight: 0; 
+        text-align: left; 
     }
 
     .entry{
-        border-style: outset;
-        width:90%
+        width:100%;
+        font-weight: 70; 
+        text-align: left; 
+        vertical-align: 
+        text-top; padding: 10px;
     }
 
     .footer{
@@ -113,7 +142,7 @@
 
     @media (min-width: 500px) {
         .body{
-            background-color:black; 
+            background-color:white; 
             padding-top: 0%; 
             padding-right: 3%;
             padding-left: 3%;
@@ -123,6 +152,7 @@
         .innertable{
             width:100%;
             min-width: 100%;
+            /* background-color:#BEBEBE ; */
         }
 
 
@@ -130,21 +160,38 @@
             float: right;
             width: 100%; 
             margin-top: 4%;
-            box-shadow: 2px 2px 0px 0px #000000; 
+            /* box-shadow: 2px 2px 0px 0px #000000; 
             box-sizing: border-box;
             border-style: outset; 
-            background-color: #BEBEBE;
+            background-color: #BEBEBE; */
         }
+
+        .tabtop{
+        background-color: #828282; 
+        font-weight: 10; 
+        text-align: left; 
+        border-left: #828282; 
+        padding-left: 3px;
+        display:none
+    }
 
         .tabtable_centered{
             float: right;
             width: 100%; 
             margin-top: 6%;
-            box-shadow: 2px 2px 0px 0px #000000; 
+            /* box-shadow: 2px 2px 0px 0px #000000; 
             box-sizing: border-box;
-            border-style: outset; 
-            background-color: #BEBEBE;
+            border-style: outset;  */
+            /* background-color: #BEBEBE; */
         }
+
+        .innertable{
+        margin: 0%;
+        margin-right: 5%;
+        display: block;
+        width:100%;
+        background-color:white ;
+    }
 
         .entryholder{
             min-width: 100%;
@@ -170,27 +217,35 @@
 
 
     .date{
-        border-style: outset;
-        width:100px
+
+        width:100px;
+        font-weight: 70; 
+        text-align: left; 
+        vertical-align: text-top; 
+        padding: 25px
     }
 
     .entry{
-        border-style: outset;
         width:1500px;
-        padding-left: 5%;
+        padding: 25px;
+        font-weight: 70; 
+        text-align: left; 
+        vertical-align: text-top; 
+        padding: 10px;
+        padding-right: 10%;
+        padding-top: 5%;
     }
-
 
     .footer{
-        vertical-align: middle;
-        font-family: UTM_Times; 
-        position: fixed; 
-        bottom: 0; 
-        left:0; 
-        background-color:#BEBEBE;
-        border-style: outset;
-        width:100%;
-    }
+    vertical-align: middle;
+    font-family: UTM_Times; 
+    position: fixed; 
+    bottom: 0; 
+    left:0; 
+    background-color:#BEBEBE;
+    border-style: outset;
+    width:100%;
+}
     
         .start {
             float: left;
@@ -198,37 +253,41 @@
             margin:2px;
             width:6%;
         }
-    
-        .welcome{
-            float: left;
-            text-align: left;
-            margin:4px; 
-            background-color: #D3D3D3;
-            box-sizing: border-box;
-            border-style: inset;
-            padding-inline: 10px;
-            padding-top: 8px;
-            padding-bottom: 8px;
-            font-size: 15px;
-            font-family: UTM_Times;
-            box-shadow: -2px -2px 0px 0px #000000;
-            width: 15%;
-        }
-        
-        .clock { 
-            margin:5px;
-    text-align: right;
-    box-sizing: border-box;
-      border-style: inset;
-      padding-inline: 10px;
-      padding-top: 8px;
-      padding-bottom: 8px;
-      font-size: 15px;
-      font-weight: 50;
-      box-shadow: -2px -2px 0px 0px #000000;
-      float: right;
-      width: 4.5%;
-        }
+
+            .welcome{
+        float: left;
+        text-align: left;
+        margin:4px; 
+        background-color: #D3D3D3;
+        box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-style: inset;
+  padding-inline: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 15px;
+  box-shadow: -2px -2px 0px 0px #000000;
+  width: 15%;
+    font-family: "UTM_Times";
+    }
+
+            .clock { 
+        margin:5px;
+text-align: right;
+box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-style: inset;
+  padding-inline: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 15px;
+  font-weight: 50;
+  box-shadow: -2px -2px 0px 0px #000000;
+  float: right;
+  width: 4.5%;
+    }
     }
 
     @font-face {
@@ -236,7 +295,7 @@
         src: url("MS Sans Serif 8pt.ttf");
       }
 
-    b {
-        font-weight: bold;
-        font-family: inherit;
-    }
+     @font-face {
+        font-family: 'UTM_Times';
+        src: url("UtmTimes-xOlr.ttf");
+      }

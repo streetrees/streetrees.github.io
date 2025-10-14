@@ -136,16 +136,17 @@
 @media (min-width: 600px) {
 
     .body{
-        background-color:#007C7A; 
+        background-color:white; 
         padding-left: 50px; 
         /* padding-top: 50px;  */
         padding-right:100px; 
         font-family: UTM_Times;
+                    overflow: hidden;
     }
 
 
     .body1{
-        background-color: #005655;
+        background-color: white;
     }
     
     .table1{
@@ -228,6 +229,18 @@
         z-index: 1;
     }
 
+        .whitepage{
+        width: 40%;
+        height: 100vh; 
+        /* margin-left: 60%; */
+        background-color: white;
+        float: right;
+        position: fixed;
+        z-index: 0;
+        top: 0;          
+        right: 3%
+    }
+
     
     .tabtable2{
         width: 30%;
@@ -274,6 +287,7 @@
   font-size: 15px;
   box-shadow: -2px -2px 0px 0px #000000;
   width: 15%;
+    font-family: "UTM_Times";
     }
     
     .clock { 
