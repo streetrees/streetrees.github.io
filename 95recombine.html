@@ -8,7 +8,7 @@
         <link rel="icon" type="image/x-icon" href="favicon_package_v0.16 (1)/favicon.ico">
         <title>RECOMBINE</title>
     </head>
-<body class="body" style="background-image: url('bw.png'); background-position:center ; font-family: UTM_Times; background-size: 100%; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
+<body class="body" style="background-image: url('fd/bg_b.JPG'); background-position:center ; font-family: UTM_Times; background-size: 100%; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
 <br><br><br>
 <table class="tabtable2 draggable" id="tabtable2" style="display: none">
     <th>
@@ -26,8 +26,8 @@
             <tr style="box-shadow: 0px 0px 2px 2px white">
     <th style="background-color: #ede4d4; font-weight: 10; box-shadow: 2px 2px 0px 0px black">
         <br>
-       &nbsp 1. Click 'Process' to prepare the text &nbsp<br><br>
-       &nbsp 2. Click 'Generate' to read it &nbsp
+       &nbsp 1. Click 'Process' to prepare the entry &nbsp<br><br>
+       &nbsp 2. Click 'Read' to read it &nbsp
         <br><br>
     </th>
 </tr>
@@ -43,28 +43,28 @@
         </table>
         
     <table class="tabtable" >
-        <tr>
+        <!-- <tr>
             <div style="background-color:#BEBEBE ; border-width: 5px; border-collapse: collapse; width:100%" >
                     <th style="background-color: black; color: white; font-weight: 10; text-align: left; border-left: #00007E; padding-left: 3px; width: 100%"  >
                     &nbsp 
                     </th>
             </div>
-        </tr>
+        </tr> -->
         <tr>
-                    <tbody class="tbody"   > 
+                    <tbody style="background-color: white;"  > 
                         <tr>
-                            <th style ="font-weight: 70; text-align: left; vertical-align: text-top; padding: 10px;" class="date" >
+                            <th style ="font-weight: 70; text-align: left; vertical-align: text-top; padding: 10px;"  >
                                 <select id="sentenceCount">
                                     <option value="2">Short</option>
                                     <option value="10">Long</option>
                                 </select>
                                     
                                 <button onclick="loadContent()">Process</button>
-                                <button onclick="generateParagraph()">Generate</button>
+                                <button onclick="generateParagraph()">Read</button>
                             </th>
                         </tr>
                         <tr class="resultBox">
-                            <th style ="font-weight: 70; text-align: left; vertical-align: text-top; padding: 10px;" class="date">
+                            <th style ="font-weight: 70; text-align: left; vertical-align: text-top; padding: 10px;" >
                                 <div style="font-size: 120%;">
                                     <b><p id="resultTitle"></p></div></b>
                                     <p id="resultParagraph"></p>
@@ -92,13 +92,13 @@
         <th>
                 <h6 class="start">
                     <a  href="95landingpage.html" target="_self" >
-                    <img src="start.png" height="40px" class="startimg">
+                    <img src="cable.png" height="40px" class="startimg">
                     </a>
                 </h6>
         </th>
         <th>
-            <h6 class = "welcome" id="welcome" >
-                &nbsp GENERATE
+            <h6 class = "welcome" id="welcome" style="width:16%"  >
+                &nbsp Recombine
             </h6>
         </th>
         <th>
