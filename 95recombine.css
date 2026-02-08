@@ -5,12 +5,12 @@
         font-family: UTM_Times;
     }
     .settingtable{
-        width: 100%;
+        /* width: 100%; */
         margin-top: 4%;
         box-shadow: 2px 2px 0px 0px #000000; 
         box-sizing: border-box;
         border-style: outset; 
-        background-color: #BEBEBE;
+        background-color: #ede4d4;
         float: center;
     }
 
@@ -18,9 +18,22 @@
         box-shadow: 2px 2px 0px 0px #000000; 
         box-sizing: border-box;
         border-style: outset; 
-        background-color: #BEBEBE;
+        background-color: #ede4d4;
         margin: 5% auto;
     }
+
+    .tabtable2{
+        position:fixed;
+        top:1;
+        right:1;
+    box-shadow: 2px 2px 0px 0px #000000; 
+    box-sizing: border-box;
+    background-color: #ede4d4;
+    /* left:0;
+    top:0; */
+    z-index: 10;
+    max-width: fit-content;
+}
 
         .tbody{
         display: block;
@@ -80,6 +93,21 @@
       float: right;
       width:20%;
         }
+        .help { 
+    margin:2.9px;
+    margin-right: 4px;
+    text-align: right;
+    box-sizing: border-box;
+  border-style: outset;
+  padding-inline: 2%;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  font-size: 15px;
+  font-weight: 50;
+  box-shadow: -2px -2px 0px 0px #000000;
+  float: right;
+  width:10%;
+}
     }
 
 
@@ -100,6 +128,18 @@
             background-color: #ede4d4;
             
         }
+
+            .tabtable2{
+        position:fixed;
+        top:1;
+        right:1;
+        box-shadow: 2px 2px 0px 0px #000000; 
+        box-sizing: border-box;
+        border-style: outset; 
+        background-color: #ede4d4;
+        z-index: 10;
+        max-width: fit-content;
+    }
 
 
     .tbody{
@@ -175,6 +215,23 @@
       float: right;
       width: 4.5%;
         }
+
+            .help { 
+    margin:5px;
+text-align: center;
+box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-style: outset;
+  padding-inline: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 15px;
+  font-weight: 50;
+  box-shadow: -2px -2px 0px 0px #000000;
+  float: right;
+  width: 2.5%;
+}
     }
 
     @font-face {
