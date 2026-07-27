@@ -91,7 +91,7 @@
 
     .entry{
         width:100%;
-        font-weight: 70; 
+        /* font-weight: 70;  */
         text-align: left; 
         vertical-align: 
         text-top; padding: 10px;
@@ -229,7 +229,7 @@
     .entry{
         width:1500px;
         padding: 25px;
-        font-weight: 70; 
+        /* font-weight: 70;  */
         text-align: left; 
         vertical-align: text-top; 
         padding: 10px;
